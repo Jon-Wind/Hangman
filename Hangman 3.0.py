@@ -233,4 +233,7 @@ while game_on == True: # Main game loop
         score = 0
         game_on == False #Game ends here.
         quit()
+    else:
+        if score == 0:
+            score = 50 #Gives player pity score if he plays again.
 
